@@ -4,7 +4,7 @@ pipeline {
 
         docker {
 
-            image 'ubuntu:22.04'
+            image 'demo-project'
 
             args '-u root'
 
