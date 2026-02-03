@@ -29,6 +29,7 @@ pipeline {
             steps {
 
                 sh 'echo "Building application inside Docker agent"'
+                sh 'ls -l mini-demo-jenkins'
 
             }
 
